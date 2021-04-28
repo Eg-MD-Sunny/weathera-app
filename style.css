@@ -1,0 +1,528 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+/**********************************
+	Header Top Style Start
+/**********************************/    
+.header{
+	background:url('images/background_img.png') no-repeat;
+	background-size:cover;
+	background-position:center center;
+	width:100%;
+	height:959px;
+	padding-bottom:140px;
+}
+.header_inner{
+	padding-bottom:119px;
+}
+.ht_le{
+	color:#fff;
+	font-size:18px;
+	font-weight:700;
+	margin:32px 0px 0px 4px;
+}
+.ht_md{
+	text-align:center;
+}
+.ht_md ul{margin:0;padding:0;}
+.ht_md ul li{list-style:none;display:inline-block;}
+.ht_md ul li a{display: block;padding: 36px 36px 20px;text-decoration: none;color: #fff;transition:all .7s ease;}
+.ht_md ul li a:hover{color:#fc6a42;}
+
+.ht_ri > ul{margin:0;padding:0;}
+.ht_ri ul li{list-style:none;display:inline-block;}
+.ht_ri ul li a{color:#fff;display:block;font-size:22px;padding:33px 20px 20px;transition:all .7s ease;}
+.ht_ri ul li a:hover{color:#5b81ec;} 
+
+/**********************************
+	Header Top Style End
+**********************************/
+
+
+/**********************************
+	Header bottom Style Start
+**********************************/
+.bottom_left_area{
+	padding-top:115px;
+	width:100%;
+}
+.bottom_left_top h2{
+	color:#fff;
+	font-size:40px;
+	letter-spacing:4px;
+	margin-bottom:40px;
+}
+.bottom_left_top p{
+	width:87%;
+	color:#fff;
+	margin-bottom:56px;
+}
+.bottom_left_bottom ul{
+	margin:0;
+	padding:0;
+}
+.bottom_left_bottom ul li{
+	list-style:none;
+	display:inline-block;
+	margin-left:5px;
+}
+.bottom_left_bottom ul li a{
+	color:#fff;
+	text-transform:capitalize;
+	text-decoration:none;
+	display:block;
+	padding:10px 30px;
+	border-radius:3px;
+}
+.bottom_left_bottom ul li a:hover{}
+#Download{background:#fc6a42;}
+#Features{background:#4466c9;}
+.bottom_right{
+	margin-left:149px;
+}
+.bottom_area{
+	width:100%;
+	position:relative;
+}
+.bottom_right:after{content:"SUNNY";position:absolute;top:48.5%;left:5.5%;width:90px;height:90px;background-color:#fc6a42;line-height:90px;color:#fff;text-align:center;font-size:18px;border-radius:100%;}
+.bottom_right:before{content:"LONDON";position:absolute;top:44%;right:11.5%;width:90px;height:90px;background-color:#4466c9;line-height:90px;color:#fff;text-align:center;font-size:15px;border-radius:100%;}
+.botton_pomo:after{content:"RIO";position:absolute;top:96%;right:16.5%;width:54px;height:54px;background-color:#fcec64;line-height:54px;color:#4466c9;text-align:center;font-size:15px;border-radius:100%;}
+.botton_pomo:before{content:"9";position:absolute;top:10%;right:19%;width:54px;height:54px;background-color:#fff;line-height:54px;text-align:center;font-size:15px;border-radius:100%;color:#4466c9;}
+
+/**********************************
+	Header bottom Style End
+**********************************/
+
+/**********************************
+	Header carosal Style start
+**********************************/
+.btn{
+	content:"";
+	position:absolute;
+	background:#fff;
+	bottom:-10.7%;
+	left:50%;
+	border-radius:50%;
+}
+/**********************************
+	Header carosal Style End
+**********************************/
+
+/**********************************
+	Features Area Style start
+**********************************/
+.features_area,.feature_left{
+    width:100%;
+}
+.feature_text{
+    margin-bottom:100px;
+}
+.fea_textarea{
+    text-align:center;
+    margin:100px 0px 70px;
+}
+.fea_textarea h4 {
+    color: #5b81ec;
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom:20px;
+}
+.fea_textarea,.fea_pomo p{
+    color:#999;
+    font-size:12px;
+}
+.fea_pomo{
+    width:88%;
+}
+.fea_pomo h3{
+    font-weight:700;
+    margin-bottom:30px;
+    text-transform:capitalize;
+}
+.fea_logo{
+    margin-top:40%;
+}
+/**********************************
+	Features Area Style End
+**********************************/
+
+/**********************************
+	Slider Style start
+**********************************/
+.slider_area{
+    text-align:center;
+}
+.slider_inner{
+	margin-bottom:100px;
+}
+.slider_area h3{
+    font-weight:700;
+    text-transform:uppercase;
+    color:#648cff;
+	margin-bottom:10px;
+}
+.slider_area p{
+    color:#999;
+    font-size:12px;
+}
+/*
+ * Slider Option ****
+ */
+.slider_inner{width:100%;}
+.slider_pomo{width:100%;}
+.center{
+    z-index:9;
+    transform: scale(1.2,1.1);
+}
+.owl-stage-outer {
+    padding-top: 100px;
+}
+.slider_pomo {
+    width: 70%;
+    margin:0 auto;
+}
+.fa.fa-angle-left {
+	position: absolute;
+	top:50%;
+	left:-100px;
+	font-size:80px;
+	color:#c3cfe5;
+	border-radius:5px;
+}
+.fa.fa-angle-right {
+	position: absolute;
+	top:50%;
+	right:-100px;
+	font-size:80px;
+	color:#c3cfe5;
+	border-radius:5px;
+}
+/**********************************
+	Slider Style End
+**********************************/
+
+/**********************************
+	Screenshots Style Start
+**********************************/
+.Screenshots_txtarea{
+	text-align:center;
+	margin-bottom:100px;
+}
+.Screenshots_txtarea h3{
+	font-weight:700;
+    text-transform:uppercase;
+    color:#648cff;
+	margin-bottom:10px;
+}
+.Screenshots_txtarea p{
+	color:#999;
+    font-size:12px;
+}
+.cloudy_area{
+	width:100%;
+}
+.center_cloudy::after {
+	color: #f4f4f7;
+	content: "Cloudy";
+	font-size: 200px;
+	left: 23%;
+	position: absolute;
+	top: 24%;
+	transform: rotate(90deg);
+	z-index: -1;
+}
+.center_cloudy{
+	text-align:center;
+}
+.cloudy_pomo img{
+	height:550px;
+}
+.cloudy_pomo_1 {
+	position: absolute;
+	right: 20%;
+	top: 28%;
+}
+.cloudy_pomo_2 {
+	position: absolute;
+	bottom: 21%;
+	left: 17%;
+}
+.cloudy_textarea {
+	width: 84%;
+	margin-top:86px;
+}
+.cloudy_textarea h3{
+	font-weight:700;
+    text-transform:uppercase;
+    color:#648cff;
+	margin:50px 0px 30px;
+}
+.cloudy_textarea p{
+    font-size:20px;
+	margin-bottom:50px;
+	color:#353854;
+}
+.mainmenu ul{
+	margin:0;
+	padding:0;
+}
+.mainmenu ul li{
+	list-style:none;
+	display:inline-block;
+}
+.mainmenu ul li a {
+	display:block;
+	height:60px;
+	line-height:60px;
+	width:60px;
+	text-align:center;
+	border-radius:50%;
+	background-color:#fff;
+	color:#c3cfe5;
+	text-decoration:none;
+	box-shadow:3px 3px 3px #ddd;
+	margin-left:-15px;
+	transition:all 1s ease;
+}
+.mainmenu ul li a:hover{
+	color:#f00;
+	margin-left:10px;
+}
+.left{
+	z-index: 2;
+	position: relative;
+}
+.middle{
+	position: relative;
+	z-index: 1;
+}
+/**********************************
+	Screenshots Style End
+**********************************/
+
+/**********************************
+	Screenshots Sunny Style Start
+**********************************/
+.screen_sunnytxtarea{
+	margin:200px 0px 200px;
+}
+.about_all {
+	margin: 125px 0 0 135px;
+}
+.sunny_textarea {
+	text-align: left;
+}
+.sunny_pomo img{
+	height:550px;
+}
+.sunny_pomo:after{
+	color: #f4f4f7;
+	content: "sunny";
+	font-size: 200px;
+	left: 32%;
+	position: absolute;
+	top: 24%;
+	transform: rotate(90deg);
+	z-index: -1;
+}
+.sunny_inner{
+	width:100%;
+	text-align:center;
+}
+.sunny_pomo_1{
+	left: 68%;
+	position: absolute;
+	top: 16%;
+}
+.sunny_pomo_2{
+	left: 17%;
+	position: absolute;
+	bottom: 16%;
+}
+.menu_left{
+	text-align:left;
+}
+.sunny_textarea h3{
+	font-weight:700;
+    text-transform:uppercase;
+    color:#648cff;
+	margin:30px 0px 30px;
+}
+.sunny_textarea p{
+	font-size:20px;
+	margin-bottom:50px;
+	color:#353854;
+}
+.about_all{
+	margin-top:100px;
+}
+/**********************************
+	Screenshots Sunny Style End
+**********************************/
+
+/**********************************
+	Screenshots rainy Style Start
+**********************************/
+.center_rainy::after {
+	color: #f4f4f7;
+	content: "Rainy";
+	font-size: 200px;
+	left: 35%;
+	position: absolute;
+	top: 24%;
+	transform: rotate(90deg);
+	z-index: -1;
+}
+.center_rainy{
+	text-align:center;
+	margin-bottom:150px;
+}
+/**********************************
+	Screenshots rainy Style End
+**********************************/
+
+
+/**********************************
+	People Style Start
+**********************************/
+.people_area_inner{
+	width:100%;
+}
+.people_area_pomo{
+	text-align:center;
+}
+.people_area_pomo h3{
+	font-weight:700;
+    text-transform:uppercase;
+    color:#648cff;
+	margin:0px 0px 20px;
+}
+.people_area_pomo p{
+	font-size:17px;
+	margin-bottom:100px;
+	color:#ddd;
+}
+.people_area_text_up{
+	margin-bottom:50px;
+}
+.people_area_text_up, .people_area_text_down{
+	padding-left:100px;
+}
+.people_area_textarea p{
+	color:#353854;
+	font-size:20px;
+}
+.people_area_textarea::after {
+	color: #648cff;
+	content: "“";
+	font-size: 100px;
+	left: 2%;
+	position: absolute;
+	top: -75%;
+}
+.people_area_textarea::before {
+	color: #648cff;
+	content: "“";
+	font-size: 100px;
+	left: 75%;
+	position: absolute;
+	top: 7%;
+	transform: rotate(180deg);
+}
+.people_area_textarea span{
+	font-size:15px;
+	color:#7b7c8b;
+	margin-bottom:80px;
+	
+}
+.people_area_text_down {
+  margin-top: 100px;
+}
+/**********************************
+	People Style End
+**********************************/
+
+/**********************************
+	Download Style Start
+**********************************/
+.download{
+	margin-top:100px;
+	background:url('images/download_option.png') no-repeat;
+	background-size:cover;
+	background-position:center center;
+	height:463px;
+	width:100%;
+}
+.download_pomo h1{
+	color:#fff;
+	padding:117px 0px 30px 50px;
+}
+.download_pomo p {
+	color: #fff;
+	font-size: 14px;
+	margin: 0 50px 50px 50px;
+	width: 53%;
+}
+.button_area{
+	margin-left:50px;
+}
+
+.footer{
+	background-color:#353854;
+	padding-top:30px;
+}
+.different_color h3{
+	color:#5877d4;
+	font-weight:700;
+}
+.different_color span{
+	color:#fc6a42;
+	font-weight:700;
+}
+.ht_md_1 ul li a{
+	color:#9596ab;
+}
+.ht_md ul li a:hover{
+	color:#fff;
+}
+.ht_ri_1 ul li a{
+	color:#b5b5c8;
+}
+.footer{
+	position:relative;
+}
+.footer_area:after{
+	content:"";
+	position:absolute;
+	bottom:37%;
+	left:0;
+	width:100%;
+	height:1px;
+	background-color:#434769;
+}
+.footer_pro::after {
+	color: #9596ab;
+	content: "© 2016 All rights reserved. Weather App Theme by Gravpix";
+	position: absolute;
+	right: 10%;
+	top: 74%;
+	font-size:12px;
+}
+/**********************************
+	Download Style End
+**********************************/
+
+
+
+
+
+
+
+
+
+
